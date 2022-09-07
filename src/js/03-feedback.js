@@ -49,6 +49,7 @@ function fillForm() {
         if (parceSavedForm.hasOwnProperty(prop)) {
             // console.log(parceSavedForm[prop]);
             formEl.elements[prop].value = parceSavedForm[prop];
+            formData[prop] = parceSavedForm[prop];
         }
     }
     }  
